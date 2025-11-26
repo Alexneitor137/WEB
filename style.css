@@ -1,10 +1,5 @@
-@font-face{
-    font-family:"ajo";
-    src: url("ComicNeueSansID.ttf");
-}
 html{
-    background-color: palevioletred;
-    font-family: ajo;
+    background-color: black;
 }
 body{
     color: aquamarine;
@@ -12,9 +7,9 @@ body{
 
 }
 li{
-    color: green;
+    color: black;
     display: inline-block;
-    font-size: xx-small;
+    font-size: small;
 }
 img{
     display: flex;
@@ -81,4 +76,5 @@ form{
     flex-direction: column;
     flex: 1;
     gap: 10px;
+
 }
